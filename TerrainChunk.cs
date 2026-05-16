@@ -116,5 +116,19 @@ public class TerrainChunk : MonoBehaviour
         _mesh.triangles = _indices;
         _mesh.RecalculateNormals();
     }
-    
+
+/*
+3 7 11
+2 6 10
+1 5 9
+0 4 8
+*/
+
+/*
+4 9 14 19 24
+3 8 13 18 23
+2 7 12 17 22
+1 6 11 16 21
+0 5 10 15 20
+*/
 }
